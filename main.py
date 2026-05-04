@@ -12,6 +12,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 TWELVE_DATA_API_KEY = "ca1acbf0cedb4488b130c59252891c5e"
 TELEGRAM_BOT_TOKEN = "8662325806:AAEj9zw70aEEJX52tlaUkutu7jQkZ3gbNdE"
+TELEGRAM_CHAT_ID = "1126071150"
 SYMBOL = "XAU/USD"
 TIMEFRAMES = {"4h": "4h", "1h": "1h", "15min": "15min"}
 OUTPUT_SIZE = 300
