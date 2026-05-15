@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 from openai import AsyncOpenAI
 
 BOT_TOKEN = "8662325806:AAEj9zw70aEEJX52tlaUkutu7jQkZ3gbNdE"
-OPENAI_API_KEY =  "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"
+OPENAI_API_KEY =  "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"
 
 client = AsyncOpenAI(api_key=OPENAI_API_KEY)
 user_history = defaultdict(list)
